@@ -17,11 +17,11 @@ header {border-bottom: 10px solid black}
 #item1 {font-size: 30px;}
 #item2 {text-align: right;}
 
-article li {padding: 5px; background-color: grey}
+#advanced-selectors li {padding: 5px; background-color: grey}
 
-article li li {background-color: white; padding: 0}
+#advanced-selectors li li {background-color: white; padding: 0}
 
-li:nth-child(2n+1) {background-color: green}
+#advanced-selectors li:nth-child(2n+1) {background-color: green}
 
 a[title]:hover {text-decoration:none;}
 
